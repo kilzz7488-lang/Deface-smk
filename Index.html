@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>watesXploit</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;font-family:'Courier New',monospace}
+        body{
+            background:#000;
+            min-height:100vh;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            padding:15px;
+            position:relative
+        }
+        .container{
+            position:relative;
+            z-index:10;
+            max-width:900px;
+            width:100%;
+            background:#0a0a0a;
+            border:2px solid #f00;
+            border-radius:40px;
+            padding:30px 25px;
+            box-shadow:0 0 40px #f00
+        }
+        .logo-container{
+            display:flex;
+            justify-content:center;
+            margin-bottom:20px
+        }
+        .logo-circle{
+            width:120px;
+            height:120px;
+            border-radius:50%;
+            overflow:hidden;
+            border:4px solid #f00;
+            box-shadow:0 0 40px #f00
+        }
+        .logo-circle img{
+            width:100%;
+            height:100%;
+            object-fit:cover;
+            display:block
+        }
+        h1{
+            text-align:center;
+            font-size:4rem;
+            color:#fff;
+            text-shadow:2px 2px 0 #f00;
+            margin-bottom:5px;
+            letter-spacing:3px
+        }
+        .sub{
+            text-align:center;
+            color:#f00;
+            font-size:1.4rem;
+            margin-bottom:20px;
+            font-weight:bold
+        }
+        .target-domain{
+            text-align:center;
+            background:#1a1a1a;
+            border:2px solid #f00;
+            border-radius:50px;
+            padding:15px;
+            margin:20px 0;
+            color:#fff;
+            font-size:1.5rem;
+            text-transform:uppercase
+        }
+        .target-domain span{
+            color:#f00;
+            font-weight:bold
+        }
+        .warning{
+            background:#1a1a1a;
+            border:2px solid #f00;
+            border-radius:30px;
+            padding:20px;
+            margin:20px 0;
+            text-align:center
+        }
+        .warning h2{
+            color:#f00;
+            font-size:2rem;
+            margin-bottom:10px
+        }
+        .warning .big{
+            font-size:1.8rem;
+            color:#fff;
+            font-weight:bold;
+            margin:10px 0
+        }
+        .warning p{
+            color:#aaa;
+            font-size:1.1rem;
+            line-height:1.6
+        }
+        .warning strong{
+            color:#f00
+        }
+        .stats{
+            display:flex;
+            justify-content:space-around;
+            flex-wrap:wrap;
+            gap:10px;
+            margin:20px 0;
+            padding:15px;
+            background:#0a0a0a;
+            border:2px solid #f00;
+            border-radius:40px
+        }
+        .stat-item{
+            text-align:center;
+            flex:1;
+            min-width:100px
+        }
+        .stat-number{
+            font-size:2rem;
+            font-weight:bold;
+            color:#f00
+        }
+        .stat-label{
+            color:#fff;
+            font-size:0.9rem;
+            margin-top:5px
+        }
+        .terminal{
+            background:#1a1a1a;
+            border:2px solid #f00;
+            border-radius:30px;
+            padding:20px;
+            margin:20px 0;
+            color:#0f0
+        }
+        .terminal-line{
+            margin:8px 0;
+            border-left:3px solid #f00;
+            padding-left:15px;
+            color:#0f0
+        }
+        .message-box{
+            background:#1a1a1a;
+            border:2px solid #f00;
+            border-radius:30px;
+            padding:20px;
+            margin:20px 0;
+            text-align:center
+        }
+        .message-box p{
+            color:#fff;
+            font-size:1.2rem;
+            margin:10px 0
+        }
+        .message-box .highlight{
+            color:#f00;
+            font-weight:bold
+        }
+        .footer{
+            text-align:center;
+            color:#f00;
+            margin-top:20px;
+            border-top:2px solid #f00;
+            padding-top:15px;
+            font-size:1rem
+        }
+        .footer span{
+            color:#fff
+        }
+        @media (max-width:768px){
+            h1{font-size:2.5rem}
+            .stats{flex-direction:column}
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- LOGO KONTOL.JPG -->
+        <div class="logo-container">
+            <div class="logo-circle">
+                <img src="kontol.jpg" alt="watesXploit" onerror="this.src='https://placehold.co/300x300/1a0000/f00?text=WX'">
+            </div>
+        </div>
+        
+        <h1>watesXploit</h1>
+        <div class="sub"># Indonesian Hacktivist</div>
+        
+        <!-- DOMAIN SMK KEDIRI -->
+        <div class="target-domain">
+            <span>🔴</span> smkn1-kediri.sch.id <span>🔴</span>
+        </div>
+        
+        <div class="warning">
+            <h2>💀 SYSTEM TAKEN OVER 💀</h2>
+            <div class="big">WEBSITE TELAH KAMI RETAS</div>
+            <p>Oleh: <strong>watesXploit</strong><br>
+            Tim: <strong>KEDIRI CYBER CREW</strong><br>
+            Tanggal: <strong>14 MARET 2025</strong></p>
+        </div>
+        
+        <div class="stats">
+            <div class="stat-item">
+                <div class="stat-number">2.5K</div>
+                <div class="stat-label">BOTS READY</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">4.7 TB</div>
+                <div class="stat-label">DATA EXPOSED</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">SYSTEM DOWN</div>
+            </div>
+        </div>
+        
+        <div class="terminal">
+            <div class="terminal-line">> nmap -sV smkn1-kediri.sch.id</div>
+            <div class="terminal-line">> Port 80 open - Apache 2.4.54</div>
+            <div class="terminal-line">> Found SQL injection in /login.php</div>
+            <div class="terminal-line">> Dumping database... 2,500 rows</div>
+            <div class="terminal-line">> Uploading backdoor... Success</div>
+            <div class="terminal-line">> Deface completed - Access root</div>
+        </div>
+        
+        <div class="message-box">
+            <p><span class="highlight">📢 PESAN UNTUK ADMIN SMKN 1 KEDIRI:</span></p>
+            <p>Benerin keamanan website lu pak!</p>
+            <p>Jangan sampai ada celah SQLi & XSS lagi.</p>
+            <p>Next time kita hapus semua database.</p>
+            <p style="margin-top:15px;"><span class="highlight">#watesXploit #KediriCyberCrew</span></p>
+        </div>
+        
+        <div class="footer">
+            <span>watesXploit</span> · KEDIRI CYBER CREW · 2026 · <span>#TakeDown</span>
+        </div>
+    </div>
+</body>
+  </html>
